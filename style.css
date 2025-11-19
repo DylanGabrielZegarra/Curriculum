@@ -103,28 +103,37 @@ footer p {
 #abajo {
     color: white;
 }
+#desktop nav a {
+    font-size: 16px;  
+    margin: 0 15px;
+}
+#desktop nav {
+    background-color: #2c2c7a;
+    padding: 8px 0;  
+    text-align: center;
+}
+#desktop a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+#desktop {
+    display: flex;          
+    justify-content: center; 
+    align-items: center;    
+    gap: 15px;              
+    flex-wrap: wrap;        
+}
 
 @media (max-width: 490px){
-    #sinexperiencia{
-        font-size: 30px;
-    }   
-    #desktop{
-        color: white;
-    }
     #desktop {
-    background-color: #2c2c7a;
-    padding: 12px;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
+        background-color: #2c2c7a;
+        padding: 5px;   
+    }
 
     #desktop p {
-    color: #fff;
-    margin: 0 20px;
-    text-decoration: none;
-    font-weight: 500;
-    transition: 0.3s;
-}
+        font-size: 15px;   
+        /* margin: 2px 0; */
+        color: #fff;
+    }
 }
