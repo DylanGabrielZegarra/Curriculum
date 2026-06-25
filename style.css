@@ -28,7 +28,7 @@ nav {
     background-color: #2c2c7a;
     padding: 12px;
     text-align: center;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     z-index: 1000;
 }
