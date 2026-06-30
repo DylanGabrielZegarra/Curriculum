@@ -164,3 +164,17 @@ footer p {
     }
 
 }
+
+@media print {
+    body {
+        background-color: #2c2c7a !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
+
+@media print {
+    #descarga_cv {
+        display: none;
+    }
+}
